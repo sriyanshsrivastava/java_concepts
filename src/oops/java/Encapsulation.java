@@ -87,8 +87,7 @@ public class Encapsulation {
         capability to add check and balances to the method so no one can misuse it. protecting this data using this
         way is encapsulation. here in this file we are encapsulating both the instance variable making them private and
         then accessing them using getters and setters methods.
-
-         */
+        */
 
 //        obj.age =11;
 //        obj.name = "Satish"; // we can not access the variable using this because it is private and we can not use
