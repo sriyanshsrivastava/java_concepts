@@ -54,5 +54,8 @@ public class StaticMethods {
          * that class. static method is not dependent on object its dependent on class
          * itself.
          */
+
+        // static method can not have null argument to print the instance variable so giving
+        // object of that class is required otherwise it will throw error
     }
 }
