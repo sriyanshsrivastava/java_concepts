@@ -14,7 +14,7 @@ class Mobile{
 //    String name; //without static keyword
     static String name;
 
-    public void show(){
+    public void show(){     // non-static method
         System.out.println(brand+" : "+ price +" : "+name); // in Non-static method we can use static variable without any problem
     }
 
