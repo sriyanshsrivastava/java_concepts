@@ -22,3 +22,5 @@ public class AnonymousObject {
 /* object without reference variable is known as
     anonymous object; we can not access it twice only one time we can access it
  */
+
+// here i am adding example comment
