@@ -4,11 +4,11 @@ package oops.java;
 
 //final implementation on class
 
-/*
+   /*
     adding final to the class prevent extending it
     so no other class can inherit form it because it is a final class
     to demonstrate this there is code below
- */
+   */
 
 // Class without final keyword
 
@@ -66,9 +66,6 @@ class Extended extends Final{
 //    }
 
 }
-
-
-
 
 public class FinalKeyword {
     public static void main(String[] args) {
