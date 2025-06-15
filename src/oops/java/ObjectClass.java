@@ -24,7 +24,6 @@ class Laptop{
      // Overrides the equals() method of super-class, Object class of java.
      // this will check if the all the properties of laptop is equals to others laptop object
      // then it will say both are equal
-
 //    public boolean equals(Laptop that){
 ////         if(this.model == that.model && this.price==that.price){
 ////             return true;
