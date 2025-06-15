@@ -43,6 +43,7 @@ public class AnonymousClassWithAbstractClass {
             public void show() {
                 System.out.println("Overridden show() method of abstract class Vehicle.");
             }
+            // we can implement this not just for one method, but any number of methods. it will work perfectly fine.
         };
 
         // lets call show() method on the object of Abstract Class Vehicle
