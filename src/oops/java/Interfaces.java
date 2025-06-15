@@ -116,6 +116,25 @@ public class Interfaces {
                                 // like method1, method2, method3 and method4.
                                 // we must override all the methods of interfaces its implementing.
                            }
+            4. can interface inherit interface?
+            -- yes, interface can inherit from another interface its just like class, interface need to extent to another
+               interface. interface can not implement another interface.
+
+               example code:
+                       interface A{
+                            // parent interface
+                       }
+
+                       interface B extends A{
+                            // child interface
+                       }
+               Note: it is just like class extends to another class it does the same for interfaces. interface extends
+               another interface.
+                            1. class - class            -> extends
+                            2. class - interface        -> implements
+                            3. interface - interface    -> extends
+
+
          */
     }
 }
