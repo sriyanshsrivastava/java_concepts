@@ -19,9 +19,9 @@ package oops.java;  // package declaration
  */
 
 
-// Functional interface with a single abstract method 'show' that takes two ints and returns an int
+// Functional interface with a single abstract method 'Add' that takes two ints and returns an int
 interface Lambda {
-    int show(int i, int j);
+    int add(int num1, int num2);
 }
 
 public class LambdaExpression {
@@ -30,7 +30,7 @@ public class LambdaExpression {
         Lambda l = (i, j) -> i + j;
 
         // Calling the 'show' method of Lambda with arguments 5 and 6
-        int result = l.show(5, 6);
+        int result = l.add(5, 6);
 
         // Printing the result of the addition
         System.out.println(result);
